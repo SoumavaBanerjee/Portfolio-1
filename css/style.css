@@ -50,6 +50,47 @@ nav ul li a {
   color: #585b5b;
   letter-spacing: 1px;
 }
+
+
+.container{
+	margin-left: 5.5rem;
+	width: 87%;
+	font-size: 1rem;
+	padding: 9px ;
+
+	margin-bottom: 3rem;
+}
+
+.About ul{
+	margin: 1rem 0;
+	list-style-type: circle;
+}
+
+@media (max-width: 945px) {
+	.container{
+	margin-left: 3.5rem;
+	width: 90%;
+	font-size: 1rem;
+	padding: 5px ;
+
+	margin-bottom: 3rem;
+}
+}
+
+@media (max-width: 768px) {
+	.container{
+	margin-left: 2.5rem;
+	width: 87%;
+	font-size: 1.2rem;
+	padding: 9px ;
+
+	margin-bottom: 3rem;
+}
+}
+
+
+
+
 .hey {
   color: #39bfbd;
   font-weight: 500;
@@ -355,7 +396,10 @@ Responsive Stuff
 }
 
 @media (max-width: 768px) {
-  .timeline .event::before {
+  #experience{
+	  padding: 0;
+  }
+	.timeline .event::before {
     left: 0.5px;
     top: 20px;
     min-width: 0;
