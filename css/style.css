@@ -399,6 +399,22 @@ Responsive Stuff
   #experience{
 	  padding: 0;
   }
+.timeline .event {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: -1.5rem;
+}
+#content{
+	margin-left: -1rem;
+	width: 100%;
+}
+
+.event{
+	width:145%
+}
+
 	.timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -603,14 +619,18 @@ nav .menu-btn,
 }
 @media (max-width: 720px) {
   .model {
-    display: none;
+	height: 8rem;
+	width: 8rem;
+	border-radius: 10rem;
+	margin-top: -20rem;
+	
   }
   .main-text {
     width: 70%;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 70%;
+    transform: translate(-50%, -30%);
   }
   #contact img {
     height: 200px;
