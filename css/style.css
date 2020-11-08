@@ -105,8 +105,9 @@ nav ul li a:hover {
 }
 
 .model img {
-  width: 100%;
-  height: 100%;
+  margin-top:2rem;
+  width: 95%;
+  height: 90%;
   object-fit: contain;
 }
 .model {
@@ -190,6 +191,8 @@ nav ul li a:hover {
 .skill-box {
   display: flex;
   margin: 25px 0px;
+  box-shadow: 0px 1px 5px 0px #6e6e6e;
+  padding: 1.5rem
 }
 .s-box-icon {
   margin-right: 12px;
@@ -248,12 +251,64 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 .recent-img {
-  margin: 0px 40px;
+  margin: 3.8rem 4rem;
+  display: flex;
+  width: 90%;
 }
-.recent-img img {
+
+
+/*Cards*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .recent-img {
+  margin: 1.5rem -0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+  .card {
+    width: 80%;
+    margin: 1.5rem 50px;
+  }
+  
+}
+
+
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #36b7b5;
+  text-align: center;
+  cursor: pointer;
   width: 100%;
-  height: 100%;
+  font-size: 18px;
 }
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
 .recent-btn {
   width: 190px;
   height: 44px;
@@ -455,6 +510,7 @@ others
   justify-content: center;
   border-radius: 50px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.15);
+  margin: 15px;
 }
 .contact-input input {
   width: 100%;
@@ -463,6 +519,7 @@ others
   outline: none;
   text-align: center;
   color: #242425;
+  
 }
 .contact-input a {
   width: 200px;
@@ -593,7 +650,7 @@ nav .menu-btn,
   #skills {
     width: 100%;
     justify-content: space-between;
-    padding-left: 40px;
+    padding-left: 2.3rem;
   }
   .skill-text {
     width: 400px;
@@ -616,38 +673,6 @@ nav .menu-btn,
     text-align: center;
     padding: 0px 15px;
   }
-
-  .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
-
-
-
 }
 @media (max-width: 720px) {
   .model {
@@ -664,13 +689,19 @@ nav .menu-btn,
     top: 70%;
     transform: translate(-50%, -30%);
   }
-  #contact img {
-    height: 200px;
-  }
+ 
 
   .recent-btn {
     margin: 0px;
   }
+}
+
+#Submit{
+  background: #23cdaf;
+  border-radius: 1rem;
+  padding: 10px;
+  border-color: #1db096;
+  width: 20%;
 }
 @media (max-width: 530px) {
   .contact-input {
@@ -685,4 +716,9 @@ nav .menu-btn,
   #skills {
     margin: 0px;
   }
+}
+
+#footers {
+
+  
 }
