@@ -3,7 +3,7 @@ body {
   padding: 0px;
   font-family: poppins;
   background-image: url("../img/banner/");
-  background-repeat: ;
+  background-repeat: none;
 }
 * {
   box-sizing: border-box;
@@ -720,5 +720,6 @@ nav .menu-btn,
 
 #footers {
 
+  display: nones;
   
 }
