@@ -164,15 +164,46 @@ nav ul li a:hover {
   transition: all ease 0.2s;
 }
 
-#skills {
+.skill-name-details{
+  height:5rem;
+  width:5rem;
+  color: var(--primary-1);
+  margin-left: 1.1rem;
+  
+}
+.skill-name{
+  display: flex;
+  flex-direction: column;
+  background:rgba(255, 255, 255, 0.336);
+  margin: 0 auto;
+  
+}
+
+.skill-image img{
+  height: 4rem;
+  width: 3.5rem;
+  padding: 0.2rem;
+  border-radius: 10rem;
+  background-color: #f0f0f0;
+
+}
+
+.What-I-Do{
+display: flex;
+
+}
+
+
+
+.skills {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
-  margin: auto auto 50px auto;
+  width: 95%;
+  margin: 1rem auto ;
 }
 .skill-text {
-  width: 400px;
+  width: 80%;
 }
 .skill-img {
   width: 600px;
@@ -192,7 +223,7 @@ nav ul li a:hover {
 }
 .skill-heading h2 {
   color: #1c3548;
-  font-size: 3.3rem;
+  font-size: 6rem;
   margin: 0px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -221,11 +252,12 @@ nav ul li a:hover {
 }
 .s-box-text strong {
   color: #1c3548;
-  margin: 0px;
-  font-size: 0.9rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 .s-box-text p {
+  margin: 0.1rem 0.5rem ;
   color: #747474;
   font-size: 0.9rem;
 }
