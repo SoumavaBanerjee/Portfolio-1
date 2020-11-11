@@ -176,6 +176,7 @@ nav ul li a:hover {
   flex-direction: column;
   background:rgba(255, 255, 255, 0.336);
   margin: 0 auto;
+  padding: 2rem;
   
 }
 
@@ -199,8 +200,9 @@ display: flex;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 95%;
+  width: 99%;
   margin: 1rem auto ;
+
 }
 .skill-text {
   width: 80%;
@@ -228,6 +230,33 @@ display: flex;
   font-weight: 400;
   letter-spacing: 1px;
 }
+
+
+@media only screen and (max-width: 850px) {
+  .recent-img {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto;
+    padding: 5rem 0;
+  }
+
+  .What-I-Do{
+    flex-direction: column;
+    
+  }
+
+
+  .recent-heading span {
+    margin-left: -5.5rem;
+  }
+}
+
+
+
+
+
+
 .s-box-container {
   margin-top: 30px;
 }
@@ -332,16 +361,7 @@ display: flex;
 }
 
 @media only screen and (max-width: 1000px) {
-  .recent-img {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 2rem auto;
-  }
 
-  .recent-heading span {
-    margin-left: -5.5rem;
-  }
 
   .card {
     margin: 2rem auto;
@@ -396,6 +416,16 @@ display: flex;
 .recent-btn {
   width: 190px;
   margin-top: -20px;
+}
+
+
+.skill-name{
+  display: flex;
+  flex-direction: column;
+  background:rgba(255, 255, 255, 0.336);
+  margin: 0 auto;
+  padding: 0rem;
+  
 }
 
 #experience {
