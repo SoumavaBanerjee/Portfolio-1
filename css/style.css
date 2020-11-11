@@ -84,11 +84,9 @@ nav ul li a {
 @media (max-width: 945px) {
   .container {
     margin-left: 3.5rem;
-    width: 90%;
     font-size: 1rem;
     padding: 5px;
-
-    margin-bottom: 3rem;
+    
   }
 }
 
@@ -236,9 +234,9 @@ display: flex;
   .recent-img {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: 3rem auto;
-    padding: 5rem 0;
+    width: 80%;
+    margin: -5rem -1rem 0 -2rem;
+    padding:  0;
   }
 
   .What-I-Do{
@@ -248,14 +246,9 @@ display: flex;
 
 
   .recent-heading span {
-    margin-left: -5.5rem;
+    
   }
 }
-
-
-
-
-
 
 .s-box-container {
   margin-top: 30px;
@@ -303,7 +296,7 @@ display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
+  margin: 30px auto;
   flex-direction: column;
 }
 .recent-heading span,
@@ -319,7 +312,7 @@ display: flex;
 .client-heading h3,
 #contact h3 {
   color: #1c3548;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -329,7 +322,7 @@ display: flex;
   background-image: url("../img/footer-bg.png");
 }
 .recent-img {
-  margin: 3.8rem 4rem;
+  margin: 0rem auto;
   display: flex;
   width: 90%;
 }
@@ -341,7 +334,7 @@ display: flex;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 2rem;
+  margin: 1.5rem 0.5rem;
   text-align: center;
   font-family: arial;
 }
@@ -559,7 +552,7 @@ Responsive Stuff
     padding-bottom: 15px;
     margin-bottom: 20px;
     position: relative;
-    margin-left: -1.5rem;
+    
   }
   #content {
     margin-left: -1rem;
@@ -771,10 +764,6 @@ nav .menu-btn,
   #contact h3 {
     font-size: 2.2rem;
     text-align: center;
-  }
-  .recent-heading {
-    text-align: center;
-    padding: 0px 15px;
   }
   .recent-heading h2 {
     margin-left: 4.4rem;
