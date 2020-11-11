@@ -1,5 +1,5 @@
 :root {
-  --primary-1: #2adabc;
+  --primary-1: #78b6e9;
   --primary-2: black;
   --background: white;
 }
@@ -15,9 +15,11 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: poppins;
-  background: var(--background);
+  background: #fffffff5;
   background-image: url("../img/body-bg.png");
-  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  bac
 }
 * {
   box-sizing: border-box;
@@ -155,10 +157,10 @@ nav ul li a:hover {
   color: var(--background);
   background-color: var(--primary-1);
   border-radius: 20px;
-  box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+  box-shadow: 4px 10px 30px rgba(24, 93, 139, 0.2);
 }
 .portfolio-btn:hover {
-  background-color: var(--primary-1);
+  background-color: #8bbfeb;
   transition: all ease 0.2s;
 }
 
@@ -261,6 +263,10 @@ nav ul li a:hover {
   font-weight: 400;
   letter-spacing: 1px;
 }
+
+#contact{
+  background-image: url("../img/footer-bg.png");
+}
 .recent-img {
   margin: 3.8rem 4rem;
   display: flex;
@@ -277,15 +283,14 @@ nav ul li a:hover {
   margin: 2rem;
   text-align: center;
   font-family: arial;
-  
 }
 
-.skill-used{
+.skill-used {
   display: inline-flex;
-  margin: -1rem ;
+  margin: -1rem;
 }
 
-.project-skills{
+.project-skills {
   font-size: 0.7rem;
   font-weight: bold;
   background-color: var(--primary-1);
@@ -302,7 +307,7 @@ nav ul li a:hover {
     margin: 2rem auto;
   }
 
-  .recent-heading span{
+  .recent-heading span {
     margin-left: -5.5rem;
   }
 
@@ -332,11 +337,11 @@ nav ul li a:hover {
   opacity: 0.7;
 }
 
-.card button a{
+.card button a {
   color: white;
 }
 
-.card button a :hover{
+.card button a :hover {
   color: #416cdf;
 }
 
@@ -347,13 +352,13 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   color: var(--background);
-  background-color: #1db096;
+  background-color: var(--primary-1);
   border-radius: 20px;
   box-shadow: 4px 7px 20px 2px rgba(24, 139, 119, 0.2);
 }
 
 .recent-btn:hover {
-  background-color: var(--primary-1);
+  background-color: #8bbfeb;
   transition: all ease 0.2s;
 }
 .recent-btn {
