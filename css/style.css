@@ -83,7 +83,7 @@ nav ul li a {
 
 @media (max-width: 945px) {
   .container {
-    margin-left: 3.5rem;
+    
     font-size: 1rem;
     padding: 5px;
     
@@ -97,7 +97,7 @@ nav ul li a {
     font-size: 1.2rem;
     padding: 9px;
 
-    margin-bottom: 3rem;
+    
   }
 }
 
@@ -244,10 +244,6 @@ display: flex;
     
   }
 
-
-  .recent-heading span {
-    
-  }
 }
 
 .s-box-container {
@@ -469,15 +465,15 @@ h1.header {
 .timeline {
   border-left: 2px solid var(--background);
   border-color: var(--primary-1);
-
   color: var(--primary-2);
-  margin: 50px auto;
+  margin: 50px 0 0 -30px;
   letter-spacing: 0.5px;
   position: relative;
   line-height: 1.4em;
-  padding: 20px;
+  padding: 0 0  0 20px ;
   list-style: none;
   text-align: left;
+  width:80%
 }
 
 .timeline h1,
@@ -527,7 +523,7 @@ Responsive Stuff
 @media (max-width: 945px) {
   .timeline .event::before {
     left: 0.5px;
-    top: 20px;
+    top: 0px;
     min-width: 0;
     font-size: 13px;
   }
@@ -535,7 +531,7 @@ Responsive Stuff
     font-size: 16px;
   }
   .timeline p {
-    padding-top: 20px;
+    padding-top: 0px;
   }
   section.lab h3.card-title {
     padding: 5px;
@@ -571,10 +567,14 @@ Responsive Stuff
   }
 
   .timeline h3 {
-    font-size: 16px;
+    font-size: 1.3rem;
   }
   .timeline p {
-    padding-top: 20px;
+    padding-top: 0px;
+  }
+  .container{
+    margin-top: -2rem;
+    padding-top: 0;
   }
 }
 /*——————————————
@@ -720,6 +720,19 @@ nav .menu-btn,
     transition: all ease-out 0.2s;
     width: 100%;
   }
+
+
+  .Activities{
+   
+    padding: 1rem;
+    
+    width: 90%;
+  }
+
+  #act{
+    margin-top: -3rem;
+  }
+
   nav .menu-icon .nav-icon:before {
     top: 5px;
   }
@@ -764,6 +777,7 @@ nav .menu-btn,
   #contact h3 {
     font-size: 2.2rem;
     text-align: center;
+    margin-left: 1rem;
   }
   .recent-heading h2 {
     margin-left: 4.4rem;
@@ -775,6 +789,14 @@ nav .menu-btn,
     width: 8rem;
     border-radius: 10rem;
     margin-top: -20rem;
+  }
+
+  #Project{
+    margin-left: -3rem;
+  }
+
+  #exp-heading{
+    margin-left: 0rem;
   }
   .main-text {
     width: 70%;
